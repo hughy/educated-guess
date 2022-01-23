@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "educated-guess"
+version = "0.1.0"
+description = "Basic statistical analyses for Wordle guesses"
+authors = ["Hugh Cunningham <hugh.e.cunningham@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyterlab = "^3.2.8"
+pandas = "^1.3.5"
+matplotlib = "^3.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
